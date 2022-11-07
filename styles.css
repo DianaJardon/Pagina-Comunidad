@@ -342,7 +342,16 @@ hr {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 643px) {
+
+  .menu-btn {
+    top: 522px;
+    right: 45px;
+    z-index: 200;
+    display: block;
+    
+  }
+
   .news-cards {
     grid-template-columns: 1fr;
   }
@@ -358,5 +367,14 @@ hr {
 
   .footer-links .footer-container ul {
     text-align: center;
+  }
+}
+
+@media (max-width: 416px) {
+
+  .menu-btn {
+    top: 680px;
+    right: 40px;
+    z-index: 200;
   }
 }
